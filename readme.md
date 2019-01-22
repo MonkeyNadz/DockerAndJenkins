@@ -1,4 +1,4 @@
-# Welcome to a Load of Nonsense!
+# Jenkins and Docker Play
 This is essentially my store for learning DevOps - mostly playing around with Docker/Jenkins - with more time wasted on Jenkins running as a container - but accessing the hosts docker processes... yikes. 
 
 ## Files
