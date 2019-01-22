@@ -15,6 +15,11 @@ Simple file list and description i probably wont keep up to date:
 ## Environment Setup
 Essentially a tracker of how I set things up.
 
+#### Personal Setup
+A note for when you set this up for yourself - you'll need to edit the below files to make it point to your specific github repo.
+ - Jenkinsfile - line 12
+ - (optional - just for best practices) package.json - update the repository file to point to where your app is stored.
+
 #### Docker Setup
 
  1. Installed Docker on an Ubuntu VM (16.04) as per [here](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#upgrade-docker-ce-1)
@@ -118,7 +123,7 @@ Create the pipeline within jenkins with the below settings:
 
 	    H/5 * * * *
 
- 2. Under Pipeline - set the definintion to "Pipeline script from SCM", select git - then paste the repo there.
+ 2. Under Pipeline - set the definintion to "Pipeline script from SCM", select git - then paste your repo there.
  3. Save and Apply.
  4. Hit Build Now - and it should all run nicely - and you should see the container build in your Docker Hub repos.
 
