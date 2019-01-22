@@ -1,0 +1,21 @@
+{
+  "name": "learningNode-and-DevOps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MonkeyNadz/DockerAndJenkins"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "author": "nobody",
+  "license": ""
+}
